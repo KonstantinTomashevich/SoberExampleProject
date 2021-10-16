@@ -8,7 +8,7 @@ sober_test_begin (Display)
 
     # If we hide testing framework under service with common macro set,
     # we can avoid separate compilation by selecting shared usage for testing service.
-    # sober_library_use_shared_service (PRIVATE Testing Doctest)
+    # sober_library_use_service (SHARED PRIVATE Testing Doctest)
 
     sober_test_variant_begin (ConsoleASCII)
     sober_test_variant_end ()
