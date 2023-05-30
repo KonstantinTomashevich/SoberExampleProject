@@ -1,4 +1,4 @@
-sober_test_begin (Persistence)
+sober_test_begin (Persistence STATIC)
     file (GLOB_RECURSE SOURCES *.cpp)
     file (GLOB_RECURSE HEADERS *.hpp)
     list (APPEND SOURCES ${HEADERS})
